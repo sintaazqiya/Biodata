@@ -1,0 +1,74 @@
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    background: linear-gradient(to right, #e3f2fd, #f5f7fa);
+}
+h1{
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: auto;
+}
+td{
+    margin-left: 300px;
+    font-weight: bolder;
+    padding: 4px 10px;
+}
+tr:nth-child(even){
+    background-color: #f5f7fa;
+    
+} 
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.pictures img{
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #89b0dd;
+}
+.data-diri h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container2{
+    margin-left: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.riwayat-pendidikan h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container3{
+    margin-left: 190px;
+}
+.keahlian h4{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.paper{
+    max-width: 750px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 25px rgb(0, 0, 0, 0, 2);
+}
